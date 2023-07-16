@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <main>
+    <main className="pt-28">
       hello world
     </main>
   )
