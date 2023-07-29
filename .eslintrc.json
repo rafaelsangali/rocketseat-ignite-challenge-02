@@ -21,6 +21,7 @@
     "no-param-reassign": "off",
     "jsx-a11y/media-has-caption": "off",
     "@typescript-eslint/no-explicit-any": "off",
+    "react/jsx-no-constructed-context-values": "off",
     "arrow-spacing": "off",
     "jsx-a11y/label-has-associated-control": [
       "error",

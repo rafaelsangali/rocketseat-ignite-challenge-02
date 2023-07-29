@@ -7,10 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'purple-light': '#EBE5F9',
+        'purple-dark': '#4B2995',
+        'yellow-light': '#F1E9C9',
+        'yellow-dark': '#C47F17',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+       'icon-location': "url('/icons/icon-location.svg')",
+       'icon-car': "url('/icons/icon-car.svg')",
+       'background': "url('/images/background.png')",
+       'brand': "url('/images/brand.png')"
       },
     },
   },
